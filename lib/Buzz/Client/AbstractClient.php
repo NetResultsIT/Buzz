@@ -9,6 +9,8 @@ abstract class AbstractClient implements ClientInterface
     protected $timeout = 5;
     protected $verifyPeer = true;
     protected $verifyHost = 2;
+    protected $sslCertificate;
+    protected $sslCertificatePassphrase;
     protected $proxy;
 
     public function setIgnoreErrors($ignoreErrors)
@@ -69,5 +71,25 @@ abstract class AbstractClient implements ClientInterface
     public function getProxy()
     {
         return $this->proxy;
+    }
+
+    public function setSslCertificate($sslCertificate)
+    {
+        $this->sslCertificate = $sslCertificate;
+    }
+
+    public function getSslCertificate()
+    {
+        return $this->sslCertificate;
+    }
+
+    public function setSslCertificatePassphrase($sslCertificatePassphrase)
+    {
+        $this->sslCertificatePassphrase = $sslCertificatePassphrase;
+    }
+
+    public function getSslCertificatePassphrase()
+    {
+        return $this->sslCertificatePassphrase;
     }
 }
