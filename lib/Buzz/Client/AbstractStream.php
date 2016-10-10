@@ -32,6 +32,8 @@ abstract class AbstractStream extends AbstractClient
             'ssl' => array(
                 'verify_peer'      => $this->getVerifyPeer(),
                 'verify_host'      => $this->getVerifyHost(),
+                'local_cert'       => $this->getSslCertificate(),
+                'passphrase'       => $this->getSslCertificatePassphrase(),
             ),
         );
 
