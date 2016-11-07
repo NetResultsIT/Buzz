@@ -10,6 +10,10 @@
             "name": "Kris Wallsmith",
             "email": "kris.wallsmith@gmail.com",
             "homepage": "http://kriswallsmith.net/"
+        },
+        {
+            "name": "Luigi Belli",
+            "email": "gigib82@gmail.com"
         }
     ],
     "require": {
