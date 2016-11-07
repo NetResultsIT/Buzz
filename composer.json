@@ -2,7 +2,7 @@
     "name": "gigib82/buzz",
     "description": "Lightweight HTTP client",
     "keywords": ["http client", "curl"],
-    "homepage": "https://github.com/kriswallsmith/Buzz",
+    "homepage": "https://github.com/gigib82/Buzz",
     "type": "library",
     "license": "MIT",
     "authors": [
