@@ -1,8 +1,8 @@
 {
-    "name": "gigib82/buzz",
+    "name": "netresultsit/buzz",
     "description": "Lightweight HTTP client",
     "keywords": ["http client", "curl"],
-    "homepage": "https://github.com/gigib82/Buzz",
+    "homepage": "https://github.com/NetResultsIT/Buzz",
     "type": "library",
     "license": "MIT",
     "authors": [
